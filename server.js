@@ -1,11 +1,11 @@
 //The token you want to forward messages from
-let usertoken = "";
+let usertoken = "NzAyMDM3ODEyOTAzNTQyODQ4.GZL3Xu.wHEtfD3f7K6OdFRaJjbHniaI8Hi2OC8f38AfiE";
 //The token you want to forward messages to
-let botoken = "";
+let botoken = "MTAyMzQwMjU4NDM3NzEzMTAyOA.GE4-Kr.nBIbqO4IEpOv3IghhIORbXa6AjIwq75Jzbs5Cw";
 //The channels you want to forward from (channel IDs)
-let forwardfrom = [];
+let forwardfrom = [1021107559341490316];
 //The channels you want to forward to (channel IDs)
-let forwardto = [];
+let forwardto = [1023408208209006613];
 //===============================================================================================
 const Discord = require("discord.js-selfbot-v11");
 const user = new Discord.Client();
